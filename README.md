@@ -28,7 +28,7 @@ import {storeStream} from "rdf-store-stream";
 _or_
 
 ```javascript
-const storeStream = require("rdf-store-stream").streamAsSource;
+const storeStream = require("rdf-store-stream").storeStream;
 ```
 
 ## Usage
