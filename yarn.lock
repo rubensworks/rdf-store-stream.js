@@ -362,10 +362,10 @@
   dependencies:
     "@types/jest-diff" "*"
 
-"@types/n3@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@types/n3/-/n3-1.1.0.tgz#62c8dc5744bd103c704289c934042f080d7ed3a2"
-  integrity sha512-u3hOs8PfCXgtuTlY6xCN4Wuv6707eWMy2mjJiaF+CS2PImcEACUvoDCC/a+Gi6J9KhhaX2ftN/ITPxFG0zw8zg==
+"@types/n3@^1.1.5":
+  version "1.1.5"
+  resolved "https://registry.yarnpkg.com/@types/n3/-/n3-1.1.5.tgz#7b126cdfb4786eab494ff79bbd002be8c3b84d00"
+  integrity sha512-FaW94FyqTIrPP3ZEiwX745xQhzeoTlNiFsXjxPWsKBd+yvBtIW3ykd9kGnGWI/jz2Rp2iFKto3Tc+IcBL6a6yA==
   dependencies:
     "@types/node" "*"
     "@types/rdf-js" "*"
