@@ -47,7 +47,7 @@
     "typescript": "^3.0.1"
   },
   "jest": {
-    "setupTestFrameworkScriptFile": "jest-rdf",
+    "setupFilesAfterEnv": [ "jest-rdf" ],
     "transform": {
       "^.+\\.ts$": "ts-jest"
     },
@@ -73,7 +73,7 @@
     "version": "manual-git-changelog onversion"
   },
   "dependencies": {
-    "@types/rdf-js": "^2.0.1",
+    "@types/rdf-js": "^3.0.2",
     "n3": "^1.1.1"
   }
 }
