@@ -1,6 +1,6 @@
 {
   "name": "rdf-store-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create an RDF store from an RDF stream",
   "keywords": [
     "rdf",
@@ -47,7 +47,9 @@
     "typescript": "^3.0.1"
   },
   "jest": {
-    "setupFilesAfterEnv": [ "jest-rdf" ],
+    "setupFilesAfterEnv": [
+      "jest-rdf"
+    ],
     "transform": {
       "^.+\\.ts$": "ts-jest"
     },
