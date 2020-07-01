@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/rubensworks/rdf-store-stream.js.svg?branch=master)](https://travis-ci.org/rubensworks/rdf-store-stream.js)
 [![Coverage Status](https://coveralls.io/repos/github/rubensworks/rdf-store-stream.js/badge.svg?branch=master)](https://coveralls.io/github/rubensworks/rdf-store-stream.js?branch=master)
-[![npm version](https://badge.fury.io/js/rdf-store-stream.svg)](https://www.npmjs.com/package/rdf-store-stream) [![Greenkeeper badge](https://badges.greenkeeper.io/rubensworks/rdf-store-stream.js.svg)](https://greenkeeper.io/)
+[![npm version](https://badge.fury.io/js/rdf-store-stream.svg)](https://www.npmjs.com/package/rdf-store-stream)
 
 This package exposes a convenience function that allows [RDF(JS) streams](http://rdf.js.org/stream-spec/#stream-interface)
 to be encapsulated into an [RDF(JS) store](http://rdf.js.org/stream-spec/#store-interface).
