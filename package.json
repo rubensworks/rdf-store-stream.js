@@ -75,7 +75,7 @@
     "version": "manual-git-changelog onversion"
   },
   "dependencies": {
-    "@types/rdf-js": "^3.0.2",
+    "@types/rdf-js": "^4.0.0",
     "n3": "^1.1.1"
   }
 }
