@@ -31,14 +31,14 @@
   ],
   "devDependencies": {
     "@types/jest": "^26.0.0",
-    "@types/n3": "^1.1.0",
+    "@types/n3": "^1.4.4",
     "arrayify-stream": "^1.0.0",
     "coveralls": "^3.0.0",
     "jest": "^26.0.0",
-    "jest-rdf": "^1.3.0",
+    "jest-rdf": "^1.6.0",
     "manual-git-changelog": "^1.0.1",
     "pre-commit": "^1.2.2",
-    "rdf-quad": "^1.3.0",
+    "rdf-quad": "^1.5.0",
     "streamify-array": "^1.0.1",
     "streamify-string": "^1.0.1",
     "ts-jest": "^26.0.0",
@@ -75,7 +75,7 @@
     "version": "manual-git-changelog onversion"
   },
   "dependencies": {
-    "@types/rdf-js": "^3.0.2",
-    "n3": "^1.1.1"
+    "@types/rdf-js": "*",
+    "n3": "^1.6.3"
   }
 }
