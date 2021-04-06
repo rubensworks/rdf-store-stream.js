@@ -12,5 +12,7 @@ import * as RDF from "rdf-js";
  */
 export function storeStream<Q extends RDF.BaseQuad = RDF.Quad>(stream: RDF.Stream<Q>): Promise<RDF.Store<Q>> {
   const store: RDF.Store<Q> = new Store<Q>();
-  return new Promise((resolve) => store.import(stream).once('end', () => resolve(store)));
+  return new Promise((resolve, reject) => store.import(stream)
+    .on('error', reject)
+    .once('end', () => resolve(store)));
 }
