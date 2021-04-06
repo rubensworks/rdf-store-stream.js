@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+<a name="v1.2.0"></a>
+## [v1.2.0](https://github.com/rubensworks/rdf-store-stream.js/compare/v1.1.0...v1.2.0) - 2021-04-06
+
+### Changed
+* [Reject promise on stream errors](https://github.com/rubensworks/rdf-store-stream.js/commit/84d5e108ba2490af74de9baa1615be86a81739c8)
+
 <a name="v1.1.0"></a>
 ## [v1.1.0](https://github.com/rubensworks/rdf-store-stream.js/compare/v1.0.1...v1.1.0) - 2020-09-16
 
