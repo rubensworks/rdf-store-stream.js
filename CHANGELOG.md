@@ -1,6 +1,12 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+<a name="v1.3.0"></a>
+## [v1.3.0](https://github.com/rubensworks/rdf-store-stream.js/compare/v1.2.0...v1.3.0) - 2021-08-11
+
+### Changed
+* [Migrate to @rdfjs/types](https://github.com/rubensworks/rdf-store-stream.js/commit/7b41acad79914cb1375e99b5b940a5c07e449284)
+
 <a name="v1.2.0"></a>
 ## [v1.2.0](https://github.com/rubensworks/rdf-store-stream.js/compare/v1.1.0...v1.2.0) - 2021-04-06
 
