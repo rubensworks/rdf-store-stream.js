@@ -78,6 +78,6 @@
   },
   "dependencies": {
     "@rdfjs/types": "*",
-    "n3": "^1.11.1"
+    "rdf-stores": "^1.0.0"
   }
 }

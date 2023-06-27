@@ -7,7 +7,7 @@
 This package exposes a convenience function that allows [RDF(JS) streams](http://rdf.js.org/stream-spec/#stream-interface)
 to be encapsulated into an [RDF(JS) store](http://rdf.js.org/stream-spec/#store-interface).
 
-The Store that will be returned is an [`N3.Store`](https://github.com/rdfjs/N3.js#storing).
+The Store that will be returned is the default store from [`rdf-stores`](https://www.npmjs.com/package/rdf-stores).
 
 This library accepts [RDFJS](http://rdf.js.org/)-compliant quads.
 
