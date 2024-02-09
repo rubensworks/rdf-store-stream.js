@@ -1,4 +1,4 @@
-import * as RDF from "rdf-js";
+import type * as RDF from '@rdfjs/types';
 import { RdfStore } from 'rdf-stores';
 
 /**
