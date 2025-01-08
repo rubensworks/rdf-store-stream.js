@@ -41,16 +41,16 @@
     "arrayify-stream": "^1.0.0",
     "coveralls": "^3.0.0",
     "jest": "^27.0.1",
-    "jest-rdf": "^1.7.0",
+    "jest-rdf": "^2.0.0",
     "manual-git-changelog": "^1.0.1",
     "pre-commit": "^1.2.2",
-    "rdf-quad": "^1.5.0",
+    "rdf-quad": "^2.0.0",
     "streamify-array": "^1.0.1",
     "streamify-string": "^1.0.1",
     "ts-jest": "^27.0.1",
     "tslint": "^6.0.0",
     "tslint-eslint-rules": "^5.3.1",
-    "typescript": "^5.0.0"
+    "typescript": "^5.7.2"
   },
   "jest": {
     "setupFilesAfterEnv": [
@@ -81,7 +81,7 @@
     "version": "manual-git-changelog onversion"
   },
   "dependencies": {
-    "@rdfjs/types": "*",
-    "rdf-stores": "^1.0.0"
-  }
+    "rdf-stores": "^2.0.0"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e"
 }
