@@ -1,6 +1,13 @@
 # Changelog
 All notable changes to this project will be documented in this file.
 
+<a name="v3.0.0"></a>
+## [v3.0.0](https://github.com/rubensworks/rdf-store-stream.js/compare/v2.0.1...v3.0.0) - 2025-01-08
+
+### BREAKING CHANGES
+* [Update to rdf-data-factory v2](https://github.com/rubensworks/rdf-store-stream.js/commit/c2915070e20d75357cfcb8da107089c5daaea1ac)
+    This includes a bump to @rdfjs/types@2.0.0, which requires TypeScript 5 and Node 14+
+
 <a name="v2.0.1"></a>
 ## [v2.0.1](https://github.com/rubensworks/rdf-store-stream.js/compare/v2.0.0...v2.0.1) - 2024-02-09
 
