@@ -45,7 +45,7 @@
     "manual-git-changelog": "^1.0.1",
     "pre-commit": "^1.2.2",
     "rdf-quad": "^2.0.0",
-    "streamify-array": "^1.0.1",
+    "streamify-array": "^2.0.0",
     "streamify-string": "^1.0.1",
     "ts-jest": "^29.0.0",
     "tslint": "^6.0.0",
