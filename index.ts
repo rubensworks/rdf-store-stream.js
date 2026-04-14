@@ -10,8 +10,8 @@ import { RdfStore } from 'rdf-stores';
  * @param {Stream<Q extends BaseQuad>} stream An RDF stream containing the quads to import into the store.
  * @return {Promise<Store<Q extends BaseQuad>>} A promise resolving to an RDF store.
  */
-export function storeStream<Q extends RDF.BaseQuad = RDF.Quad>(stream: RDF.Stream<Q>): Promise<RDF.Store<Q>> {
-  const store: RDF.Store<Q> = <RDF.Store<Q>> <RDF.Store> RdfStore.createDefault();
+export function storeStream<TQ extends RDF.BaseQuad = RDF.Quad>(stream: RDF.Stream<TQ>): Promise<RDF.Store<TQ>> {
+  const store: RDF.Store<TQ> = <RDF.Store<TQ>> <RDF.Store> RdfStore.createDefault();
   return new Promise((resolve, reject) => store.import(stream)
     .on('error', reject)
     .once('end', () => resolve(store)));

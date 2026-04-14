@@ -9,7 +9,7 @@ describe('storeStream', () => {
   it('should import an empty stream', async() => {
     const store = await storeStream(streamifyArray([]));
     expect(store).not.toBeFalsy();
-    expect(await arrayifyStream(store.match())).toBeRdfIsomorphic([]);
+    await expect(arrayifyStream(store.match())).resolves.toBeRdfIsomorphic([]);
   });
 
   it('should import a non-empty stream', async() => {
@@ -19,7 +19,7 @@ describe('storeStream', () => {
       quad('s3', 'p3', 'o3'),
     ]));
     expect(store).not.toBeFalsy();
-    expect(await arrayifyStream(store.match())).toBeRdfIsomorphic([
+    await expect(arrayifyStream(store.match())).resolves.toBeRdfIsomorphic([
       quad('s1', 'p1', 'o1'),
       quad('s2', 'p2', 'o2'),
       quad('s3', 'p3', 'o3'),
