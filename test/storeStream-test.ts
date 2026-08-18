@@ -1,9 +1,9 @@
 import 'jest-rdf';
 import { arrayifyStream } from 'arrayify-stream';
+import { streamifyArray } from 'streamify-array';
 import { storeStream } from '..';
 
 const quad = require('rdf-quad');
-const streamifyArray = require('streamify-array');
 
 describe('storeStream', () => {
   it('should import an empty stream', async() => {
