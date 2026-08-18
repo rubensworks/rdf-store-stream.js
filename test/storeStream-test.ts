@@ -1,7 +1,7 @@
 import 'jest-rdf';
+import { arrayifyStream } from 'arrayify-stream';
 import { storeStream } from '..';
 
-const arrayifyStream = require('arrayify-stream');
 const quad = require('rdf-quad');
 const streamifyArray = require('streamify-array');
 
